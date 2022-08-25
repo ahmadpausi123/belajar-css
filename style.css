@@ -1,0 +1,45 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: #FFFF8D;
+    padding: 10px 20px;
+    color: #FF80AB;
+}
+header .title{
+    float: left;
+    width: 30%;
+}
+nav{
+    width: 70%;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    padding: 15px;
+    color: #EA80FC;
+    text-decoration: none;
+}
+#home, #about, #contact{
+    text-align: center;
+    height: 100vh;
+    color: #fff;
+}
+#home{
+    background-color: #FF80AB; 
+}
+#about{
+    background-color: #066e46;
+}
+#contact{
+    background-color: #800175;
+}
